@@ -1,0 +1,59 @@
+{
+  "info": {
+    "name": "NoiseMap API Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "List Medicoes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/medicoes",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "medicoes"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Medicao",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/medicoes/1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "medicoes",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Medicao",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\\n  \\\"local\\\": \\\"Rua A, 123\\\",\\n  \\\"nivelRuido\\\": 72.5,\\n  \\\"dataHora\\\": \\\"2025-10-10T12:34:56\\\",\\n  \\\"usuarioId\\\": \\\"RM560112\\\"\\n}"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Coloque aqui o diagrama de classes (imagem). Substitua por class-diagram.png

@@ -1,0 +1,1 @@
+Este pacote contém o projeto pronto para entrega. Configure o Oracle (schema, user, SEQUENCE SEQ_CLIENTE) e atualize application.yml antes de executar.
